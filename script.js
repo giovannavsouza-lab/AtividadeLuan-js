@@ -39,7 +39,9 @@ document.getElementById("btn3"),addEventListener("click", function(){
 // Dica: use document.createElement() e .appendChild()
 
 document.getElementById("btn4"),addEventListener("click", function(){
-    document.getElementById(#lista4)
+    const itemNovo = document.createElement("li")
+    itemNovo.textContent = "Novo item"
+    document.getElementById("lista4").appendChild(itemNovo)
 }
 )
 // ---------- Exercicio 5 ----------
