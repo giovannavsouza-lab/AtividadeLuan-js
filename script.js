@@ -9,21 +9,27 @@
 // para "Texto alterado com sucesso!"
 //
 // Dica: use document.getElementById() e .textContent
-
+document.getElementById("btn1").addEventListener("click", function(){
+    document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
+})
 
 
 // ---------- Exercicio 2 ----------
 // Ao clicar no botao, mude a cor do texto #texto2 para azul
 //
 // Dica: use .style.color = "blue"
-
+document.getElementById("btn2").addEventListener("click", function(){
+    document.getElementById("texto2").style.color = "blue"
+})
 
 
 // ---------- Exercicio 3 ----------
 // Ao clicar no botao, esconda o elemento #texto3
 //
 // Dica: use .style.display = "none"
-
+document.getElementById("btn3"),addEventListener("click", function(){
+ document.getElementById("texto3").style.display = "none"
+})
 
 
 // ---------- Exercicio 4 ----------
@@ -32,8 +38,10 @@
 //
 // Dica: use document.createElement() e .appendChild()
 
-
-
+document.getElementById("btn4"),addEventListener("click", function(){
+    document.getElementById(#lista4)
+}
+)
 // ---------- Exercicio 5 ----------
 // Ao clicar no botao, mude a cor de fundo da #caixa5
 // para amarelo
